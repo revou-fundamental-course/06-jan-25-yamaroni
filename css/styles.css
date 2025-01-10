@@ -1,1 +1,50 @@
 /* Ini File CSS */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+
+.left-rounded {
+    border-radius: 12px 0 0 12px;
+}
+
+.right-rounded {
+    border-radius: 0 12px 12px 0;
+}
+
+nav>a {
+    border: 1px solid black;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-image {
+    height: 450px;
+    background-image: url(https://picsum.photos/1000);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    /* Opsinal */
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+}
