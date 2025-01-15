@@ -37,7 +37,9 @@
                 <p>Lorem ipsum dolor sit amet adipiscing...</p>
             </header>
 
-            <div class="banner-image">
+            <div class="banner-image banner-image-1"></div>
+            <div class="banner-image banner-image-2"></div>
+            <div class="banner-image banner-image-3"></div>
 
             </div>
         </section>
@@ -69,7 +71,18 @@
                 <h1>Message Us</h1>
             </header>
 
-            <div class="content"></div>
+            <div class="content">
+                <form action="">
+                    <div>
+                        <label for="name-input">Name:</label>
+                        <input type="text" name="name" id="name-input" placeholder="Enter your name" required>
+                    </div>
+
+                    <button type="button" id="submit-btn">Submit</button>
+                </form>
+
+                <div id="result-form"></div>
+            </div>
         </section>
     </main>
 
@@ -79,6 +92,8 @@
     <footer>
         <p>&copy; 2025 - All rights reserved</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

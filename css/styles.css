@@ -35,9 +35,20 @@ nav>a {
 
 .banner-image {
     height: 450px;
-    background-image: url(https://picsum.photos/1000);
     background-size: cover;
     background-position: center;
+}
+
+.banner-image-1 {
+    background-image: url(https://picsum.photos/500);
+}
+
+.banner-image-2 {
+    background-image: url(https://picsum.photos/501);
+}
+
+.banner-image-3 {
+    background-image: url(https://picsum.photos/502);
 }
 
 .content {
@@ -47,4 +58,11 @@ nav>a {
 
 footer {
     text-align: center;
+}
+
+/* CSS yang dijalankan di ukuran layar kurang dari 480px */
+@media only screen and (max-width: 480px) {
+    .main-header {
+        flex-direction: column;
+    }
 }
